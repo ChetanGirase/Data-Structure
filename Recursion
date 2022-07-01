@@ -1,0 +1,23 @@
+#include<iostream.h>
+#include<conio.h>
+
+int display(int n)
+{
+if(n<1)
+{
+return 1;
+}
+else
+{
+cout<<n;
+display(n-1);
+cout<<n;
+}
+}
+
+void main()
+{
+display(3);
+getch();
+clrscr();
+}
